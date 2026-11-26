@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Edit Produk — PT SeduKopi') @section('content')<main class="container py-5"><h1 class="fw-bold mb-4">Edit Produk</h1>@include('admin.products.form', ['formAction'=>route('admin.products.update',$product), 'formMethod'=>'PUT', 'submitLabel'=>'Perbarui Produk'])</main>@endsection
